@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpForms", "SharpForms\SharpForms.csproj", "{E4ED70F6-D44E-45A8-AB6C-EB14137EE74F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4ED70F6-D44E-45A8-AB6C-EB14137EE74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4ED70F6-D44E-45A8-AB6C-EB14137EE74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4ED70F6-D44E-45A8-AB6C-EB14137EE74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4ED70F6-D44E-45A8-AB6C-EB14137EE74F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4C4D674-C1F5-4274-BD9F-4BBE4C28AD8D}
+	EndGlobalSection
+EndGlobal
