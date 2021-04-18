@@ -55,12 +55,19 @@ namespace SharpForms
 
         private void initializeGame()
         {
-            errorCounter = 0;
-            isGameFinished = false;
+            resetGame();
             setPictureBoxVisible();
             createRandomColors();
             fillPictureBoxes();
             labelText.Text = createNewText();
+        }
+
+        private void resetGame()
+        {
+            errorCounter = 0;
+            isGameFinished = false;
+            pictureBoxMark.Image = null;
+            labelMark.Text = "";
         }
 
         private void fillPictureBoxes()
@@ -166,17 +173,17 @@ namespace SharpForms
             fillBoxesToDefault();
             switch(errorCounter)
             {
-                case 0:
-                    labelMark.Text = "Отлично";
-                    break;
-                case 1:
-                    labelMark.Text = "Хорошо";
+                case 0: case 1:
+                    labelMark.Text = "Отлично!";
+                    pictureBoxMark.ImageLocation = @"images/good.jpg";
                     break;
                 case 2:
-                    labelMark.Text = "Удовлетворительно";
+                    labelMark.Text = "Хорошо!";
+                    pictureBoxMark.ImageLocation = @"images/okay.jpg";
                     break;
                 default:
-                    labelMark.Text = "Плохо";
+                    labelMark.Text = "Попробуй ещё!";
+                    pictureBoxMark.ImageLocation = @"images/bad.jpg";
                     break;
             }
         }

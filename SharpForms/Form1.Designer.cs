@@ -70,11 +70,10 @@ namespace SharpForms
             // labelMark
             // 
             this.labelMark.AutoSize = true;
-            this.labelMark.Location = new System.Drawing.Point(655, 241);
+            this.labelMark.Location = new System.Drawing.Point(581, 231);
             this.labelMark.Name = "labelMark";
-            this.labelMark.Size = new System.Drawing.Size(75, 15);
+            this.labelMark.Size = new System.Drawing.Size(0, 15);
             this.labelMark.TabIndex = 4;
-            this.labelMark.Text = "Твоя оценка";
             // 
             // pictureBox1
             // 
@@ -87,9 +86,10 @@ namespace SharpForms
             // 
             // pictureBoxMark
             // 
-            this.pictureBoxMark.Location = new System.Drawing.Point(606, 273);
+            this.pictureBoxMark.Location = new System.Drawing.Point(530, 249);
             this.pictureBoxMark.Name = "pictureBoxMark";
             this.pictureBoxMark.Size = new System.Drawing.Size(172, 156);
+            this.pictureBoxMark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBoxMark.TabIndex = 6;
             this.pictureBoxMark.TabStop = false;
             // 
@@ -154,7 +154,7 @@ namespace SharpForms
             this.Controls.Add(this.labelText);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Игра: \"Дотронься до цвета!\"";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMark)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
